@@ -17,5 +17,5 @@ dependencies {
 application {
     mainClass = project.hasProperty("mainClass")
             ? project.getProperty("mainClass")
-            : 'myproject.App'
+            : 'appcluster.App'
 }
